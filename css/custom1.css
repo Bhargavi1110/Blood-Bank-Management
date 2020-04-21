@@ -1,0 +1,305 @@
+/*Navigatiion starts*/
+.navbar-brand, .nav-link {
+  color: #e74c3c !important;
+}
+
+.navbar-default {
+  background-color: white !important;
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.navbar-default {
+  background-color: #3d3d3d!important;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/*drop shadow*/
+nav{
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.14);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.14);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 17px;
+  color: #e74c3c;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: #e74c3c;
+  padding: 5px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight: 700;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+  color: #e74c3c;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3d3d3d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #e74c3c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #5c5c5c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mySlides {display: none;}
+img {vertical-align: baseline;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0px 0px;
+  background-color: #bbb;
+  border-radius: 40%;
+  display: inline-block;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navigation ends*/
+
+body{
+	background-color: #fff;
+  width: 100%;
+  overflow-x: hidden;
+}
+.white-bar{
+	height: 2px;
+	width: 35%;
+	color: white;
+	background-color: white;
+}
+.red-bar{
+  height: 3px;
+  width: 50%;
+  color: #e74c3c;
+  background-color: #e74c3c;
+}
+
+.pera-text{
+	color: white;
+	font-size: 16px;
+}
+.red-background{
+  background-color: #e74c3c;
+  min-height: 200px;
+  height: auto;
+  padding: 10px
+}
+
+.top-red-background{
+  background-color: #e74c3c;
+  min-height: 50px;
+  height: 170px;
+  padding: 67px
+}
+
+.form-group{
+	padding-right: 20px;
+}
+.header{
+  margin: 0;
+	padding: 50px 0;
+}
+.red-background p{
+  padding: 40px;
+}
+
+.btn-danger{
+	background-color: #e74c3c;
+	border-radius: 25px;
+	padding: 10px 30px;
+	font-size: 22px;
+	font-weight: 700;
+}
+.red{
+	color: #e74c3c;
+}
+.btn-default{
+	color: #e74c3c;;
+	border-radius: 25px;
+	padding: 10px 30px;
+	font-size: 22px;
+	font-weight: 700;
+  background-color:#fff;
+}
+
+.btn-default:hover{
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.center-aligned{
+	display: table;
+	margin: 0 auto;
+}
+.margin10px{
+	margin: 10px;
+}
+
+.aboutus{
+  padding: 40px 0 20px 0;
+  margin: 0 auto;
+  display: table;
+
+}
+.card {
+  width: 350px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px; 
+
+}
+.card h3,img{
+  padding-bottom: 20px;
+  align-self: center;
+}
+
+.contactus{
+  padding: 10px;
+  background-color: #3d3d3d;
+
+}
+.contactus h1{
+  color: #e74c3c;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 700;
+}
+.contactus h2{
+  color: white;
+  font-family: 'Cambria',sans-serif
+}
+
+.glyphicon{
+  color:white;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.fa{
+  font-size: 32px !important;
+  margin-right: 20px;
+}
+.details{
+  font-size: 22px;
+  padding: 20px;
+  font-weight: 400px;
+
+}
+.details .fa{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.white{
+    background-color: white;
+  }
+
+.tab { 
+    display: inline-block; 
+    margin-left: 20px; 
+  }
+
+h2 {
+    color: #bfbfbf;
+}
